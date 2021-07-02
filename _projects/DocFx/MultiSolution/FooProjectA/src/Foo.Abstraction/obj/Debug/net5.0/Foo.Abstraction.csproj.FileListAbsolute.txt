@@ -1,0 +1,11 @@
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\bin\Debug\net5.0\Foo.Abstraction.deps.json
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\bin\Debug\net5.0\Foo.Abstraction.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\bin\Debug\net5.0\ref\Foo.Abstraction.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\bin\Debug\net5.0\Foo.Abstraction.pdb
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\obj\Debug\net5.0\Foo.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\obj\Debug\net5.0\Foo.Abstraction.AssemblyInfoInputs.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\obj\Debug\net5.0\Foo.Abstraction.AssemblyInfo.cs
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\obj\Debug\net5.0\Foo.Abstraction.csproj.CoreCompileInputs.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\obj\Debug\net5.0\Foo.Abstraction.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\obj\Debug\net5.0\ref\Foo.Abstraction.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Abstraction\obj\Debug\net5.0\Foo.Abstraction.pdb

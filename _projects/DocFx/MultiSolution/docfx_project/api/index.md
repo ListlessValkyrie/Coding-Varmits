@@ -1,2 +1,3 @@
-# PLACEHOLDER
-TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!
+# API Documentation
+
+Auto generated API stuff! All this stuff is done by simply using stylecop to enforce commenting code and letting DocFx do the rest.

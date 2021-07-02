@@ -16,6 +16,6 @@ until ( $ok )
 
 switch ($value)
 {
-	0 { .\docfx.bat}	
+	0 {	.\lib\docfx\docfx.exe .\docfx_project\docfx.json }
 	1 { .\lib\docfx\docfx .\docfx_project\docfx.json --serve }	
 }

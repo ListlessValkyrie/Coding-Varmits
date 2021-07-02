@@ -1,7 +1,7 @@
 # Coding-Varmits
 Prototype code and example projects.
 
-## Projects
+## Projects:
 
 ### DocFx Single Repo - Multi VS Solution
 

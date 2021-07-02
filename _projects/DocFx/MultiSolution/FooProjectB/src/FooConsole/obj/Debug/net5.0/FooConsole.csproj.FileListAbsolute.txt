@@ -1,0 +1,16 @@
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\bin\Debug\net5.0\FooConsole.exe
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\bin\Debug\net5.0\FooConsole.deps.json
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\bin\Debug\net5.0\FooConsole.runtimeconfig.json
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\bin\Debug\net5.0\FooConsole.runtimeconfig.dev.json
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\bin\Debug\net5.0\FooConsole.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\bin\Debug\net5.0\ref\FooConsole.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\bin\Debug\net5.0\FooConsole.pdb
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.csproj.AssemblyReference.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.AssemblyInfoInputs.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.AssemblyInfo.cs
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.csproj.CoreCompileInputs.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\ref\FooConsole.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.pdb
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectB\src\FooConsole\obj\Debug\net5.0\FooConsole.genruntimeconfig.cache

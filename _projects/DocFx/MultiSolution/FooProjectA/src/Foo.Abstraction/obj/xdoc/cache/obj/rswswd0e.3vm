@@ -1,0 +1,420 @@
+id: Foo.Abstraction
+language: CSharp
+name:
+  Default: Foo.Abstraction
+qualifiedName:
+  Default: Foo.Abstraction
+type: Assembly
+modifiers: {}
+items:
+- id: Foo.Abstraction
+  commentId: N:Foo.Abstraction
+  language: CSharp
+  name:
+    CSharp: Foo.Abstraction
+    VB: Foo.Abstraction
+  nameWithType:
+    CSharp: Foo.Abstraction
+    VB: Foo.Abstraction
+  qualifiedName:
+    CSharp: Foo.Abstraction
+    VB: Foo.Abstraction
+  type: Namespace
+  assemblies:
+  - Foo.Abstraction
+  modifiers: {}
+  items:
+  - id: Foo.Abstraction.ITamagotchi
+    commentId: T:Foo.Abstraction.ITamagotchi
+    language: CSharp
+    name:
+      CSharp: ITamagotchi
+      VB: ITamagotchi
+    nameWithType:
+      CSharp: ITamagotchi
+      VB: ITamagotchi
+    qualifiedName:
+      CSharp: Foo.Abstraction.ITamagotchi
+      VB: Foo.Abstraction.ITamagotchi
+    type: Interface
+    assemblies:
+    - Foo.Abstraction
+    namespace: Foo.Abstraction
+    source:
+      remote:
+        path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+        branch: docFx_multiProject
+        repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+      id: ITamagotchi
+      path: ../FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+      startLine: 5
+    summary: "\nEgg Watch!.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public interface ITamagotchi
+        VB: Public Interface ITamagotchi
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: Foo.Abstraction.ITamagotchi.Id
+      commentId: P:Foo.Abstraction.ITamagotchi.Id
+      language: CSharp
+      name:
+        CSharp: Id
+        VB: Id
+      nameWithType:
+        CSharp: ITamagotchi.Id
+        VB: ITamagotchi.Id
+      qualifiedName:
+        CSharp: Foo.Abstraction.ITamagotchi.Id
+        VB: Foo.Abstraction.ITamagotchi.Id
+      type: Property
+      assemblies:
+      - Foo.Abstraction
+      namespace: Foo.Abstraction
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Id
+        path: ../FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+        startLine: 10
+      summary: "\nGets unique identifier.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: int Id { get; }
+          VB: ReadOnly Property Id As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Foo.Abstraction.ITamagotchi.Id*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: Foo.Abstraction.ITamagotchi.Alias
+      commentId: P:Foo.Abstraction.ITamagotchi.Alias
+      language: CSharp
+      name:
+        CSharp: Alias
+        VB: Alias
+      nameWithType:
+        CSharp: ITamagotchi.Alias
+        VB: ITamagotchi.Alias
+      qualifiedName:
+        CSharp: Foo.Abstraction.ITamagotchi.Alias
+        VB: Foo.Abstraction.ITamagotchi.Alias
+      type: Property
+      assemblies:
+      - Foo.Abstraction
+      namespace: Foo.Abstraction
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Alias
+        path: ../FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+        startLine: 15
+      summary: "\nGets the name of your terrible digital pet.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: string Alias { get; }
+          VB: ReadOnly Property Alias As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Foo.Abstraction.ITamagotchi.Alias*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: Foo.Abstraction.ITamagotchi.Hunger
+      commentId: P:Foo.Abstraction.ITamagotchi.Hunger
+      language: CSharp
+      name:
+        CSharp: Hunger
+        VB: Hunger
+      nameWithType:
+        CSharp: ITamagotchi.Hunger
+        VB: ITamagotchi.Hunger
+      qualifiedName:
+        CSharp: Foo.Abstraction.ITamagotchi.Hunger
+        VB: Foo.Abstraction.ITamagotchi.Hunger
+      type: Property
+      assemblies:
+      - Foo.Abstraction
+      namespace: Foo.Abstraction
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Hunger
+        path: ../FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+        startLine: 20
+      summary: "\nGets how hungry the critter is.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: float Hunger { get; }
+          VB: ReadOnly Property Hunger As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Foo.Abstraction.ITamagotchi.Hunger*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: Foo.Abstraction.ITamagotchi.Tiredness
+      commentId: P:Foo.Abstraction.ITamagotchi.Tiredness
+      language: CSharp
+      name:
+        CSharp: Tiredness
+        VB: Tiredness
+      nameWithType:
+        CSharp: ITamagotchi.Tiredness
+        VB: ITamagotchi.Tiredness
+      qualifiedName:
+        CSharp: Foo.Abstraction.ITamagotchi.Tiredness
+        VB: Foo.Abstraction.ITamagotchi.Tiredness
+      type: Property
+      assemblies:
+      - Foo.Abstraction
+      namespace: Foo.Abstraction
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Tiredness
+        path: ../FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+        startLine: 25
+      summary: "\nGets how tired the critter is.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: float Tiredness { get; }
+          VB: ReadOnly Property Tiredness As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Foo.Abstraction.ITamagotchi.Tiredness*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: Foo.Abstraction.ITamagotchi.Bordem
+      commentId: P:Foo.Abstraction.ITamagotchi.Bordem
+      language: CSharp
+      name:
+        CSharp: Bordem
+        VB: Bordem
+      nameWithType:
+        CSharp: ITamagotchi.Bordem
+        VB: ITamagotchi.Bordem
+      qualifiedName:
+        CSharp: Foo.Abstraction.ITamagotchi.Bordem
+        VB: Foo.Abstraction.ITamagotchi.Bordem
+      type: Property
+      assemblies:
+      - Foo.Abstraction
+      namespace: Foo.Abstraction
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Bordem
+        path: ../FooProjectA/src/Foo.Abstraction/ITamagotchi.cs
+        startLine: 30
+      summary: "\nGets how bored the critter is.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: float Bordem { get; }
+          VB: ReadOnly Property Bordem As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Foo.Abstraction.ITamagotchi.Bordem*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Foo.Abstraction.ITamagotchi.Id*:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Id*
+        name: Id
+        nameWithType: ITamagotchi.Id
+        qualifiedName: Foo.Abstraction.ITamagotchi.Id
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Id*
+        name: Id
+        nameWithType: ITamagotchi.Id
+        qualifiedName: Foo.Abstraction.ITamagotchi.Id
+    isDefinition: true
+    commentId: Overload:Foo.Abstraction.ITamagotchi.Id
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Foo.Abstraction.ITamagotchi.Alias*:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Alias*
+        name: Alias
+        nameWithType: ITamagotchi.Alias
+        qualifiedName: Foo.Abstraction.ITamagotchi.Alias
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Alias*
+        name: Alias
+        nameWithType: ITamagotchi.Alias
+        qualifiedName: Foo.Abstraction.ITamagotchi.Alias
+    isDefinition: true
+    commentId: Overload:Foo.Abstraction.ITamagotchi.Alias
+  System.Single:
+    name:
+      CSharp:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+      VB:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Single
+  Foo.Abstraction.ITamagotchi.Hunger*:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Hunger*
+        name: Hunger
+        nameWithType: ITamagotchi.Hunger
+        qualifiedName: Foo.Abstraction.ITamagotchi.Hunger
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Hunger*
+        name: Hunger
+        nameWithType: ITamagotchi.Hunger
+        qualifiedName: Foo.Abstraction.ITamagotchi.Hunger
+    isDefinition: true
+    commentId: Overload:Foo.Abstraction.ITamagotchi.Hunger
+  Foo.Abstraction.ITamagotchi.Tiredness*:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Tiredness*
+        name: Tiredness
+        nameWithType: ITamagotchi.Tiredness
+        qualifiedName: Foo.Abstraction.ITamagotchi.Tiredness
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Tiredness*
+        name: Tiredness
+        nameWithType: ITamagotchi.Tiredness
+        qualifiedName: Foo.Abstraction.ITamagotchi.Tiredness
+    isDefinition: true
+    commentId: Overload:Foo.Abstraction.ITamagotchi.Tiredness
+  Foo.Abstraction.ITamagotchi.Bordem*:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Bordem*
+        name: Bordem
+        nameWithType: ITamagotchi.Bordem
+        qualifiedName: Foo.Abstraction.ITamagotchi.Bordem
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Bordem*
+        name: Bordem
+        nameWithType: ITamagotchi.Bordem
+        qualifiedName: Foo.Abstraction.ITamagotchi.Bordem
+    isDefinition: true
+    commentId: Overload:Foo.Abstraction.ITamagotchi.Bordem
+  Foo.Abstraction.ITamagotchi:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi
+        name: ITamagotchi
+        nameWithType: ITamagotchi
+        qualifiedName: Foo.Abstraction.ITamagotchi
+      VB:
+      - id: Foo.Abstraction.ITamagotchi
+        name: ITamagotchi
+        nameWithType: ITamagotchi
+        qualifiedName: Foo.Abstraction.ITamagotchi
+    isDefinition: true
+    commentId: T:Foo.Abstraction.ITamagotchi
+  Foo.Abstraction:
+    name:
+      CSharp:
+      - name: Foo.Abstraction
+        nameWithType: Foo.Abstraction
+        qualifiedName: Foo.Abstraction
+      VB:
+      - name: Foo.Abstraction
+        nameWithType: Foo.Abstraction
+        qualifiedName: Foo.Abstraction
+    isDefinition: true
+    commentId: N:Foo.Abstraction

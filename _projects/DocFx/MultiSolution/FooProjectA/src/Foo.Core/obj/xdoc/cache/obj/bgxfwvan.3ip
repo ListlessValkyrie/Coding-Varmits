@@ -1,0 +1,834 @@
+id: Foo.Core
+language: CSharp
+name:
+  Default: Foo.Core
+qualifiedName:
+  Default: Foo.Core
+type: Assembly
+modifiers: {}
+items:
+- id: Foo.Core
+  commentId: N:Foo.Core
+  language: CSharp
+  name:
+    CSharp: Foo.Core
+    VB: Foo.Core
+  nameWithType:
+    CSharp: Foo.Core
+    VB: Foo.Core
+  qualifiedName:
+    CSharp: Foo.Core
+    VB: Foo.Core
+  type: Namespace
+  assemblies:
+  - Foo.Core
+  modifiers: {}
+  items:
+  - id: Foo.Core.Tamagotchi
+    commentId: T:Foo.Core.Tamagotchi
+    language: CSharp
+    name:
+      CSharp: Tamagotchi
+      VB: Tamagotchi
+    nameWithType:
+      CSharp: Tamagotchi
+      VB: Tamagotchi
+    qualifiedName:
+      CSharp: Foo.Core.Tamagotchi
+      VB: Foo.Core.Tamagotchi
+    type: Class
+    assemblies:
+    - Foo.Core
+    namespace: Foo.Core
+    source:
+      remote:
+        path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Core/Tamagotchi.cs
+        branch: docFx_multiProject
+        repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+      id: Tamagotchi
+      path: ../FooProjectA/src/Foo.Core/Tamagotchi.cs
+      startLine: 8
+    summary: "\nConcrete implementation of a Tamagotchi.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class Tamagotchi : ITamagotchi'
+        VB: >-
+          Public Class Tamagotchi
+
+              Implements ITamagotchi
+    inheritance:
+    - System.Object
+    implements:
+    - Foo.Abstraction.ITamagotchi
+    inheritedMembers:
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.ToString
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Foo.Core.Tamagotchi.Id
+      commentId: P:Foo.Core.Tamagotchi.Id
+      language: CSharp
+      name:
+        CSharp: Id
+        VB: Id
+      nameWithType:
+        CSharp: Tamagotchi.Id
+        VB: Tamagotchi.Id
+      qualifiedName:
+        CSharp: Foo.Core.Tamagotchi.Id
+        VB: Foo.Core.Tamagotchi.Id
+      type: Property
+      assemblies:
+      - Foo.Core
+      namespace: Foo.Core
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Core/Tamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Id
+        path: ../FooProjectA/src/Foo.Core/Tamagotchi.cs
+        startLine: 11
+      example: []
+      syntax:
+        content:
+          CSharp: public int Id { get; }
+          VB: Public ReadOnly Property Id As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Foo.Core.Tamagotchi.Id*
+      implements:
+      - Foo.Abstraction.ITamagotchi.Id
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Foo.Core.Tamagotchi.Alias
+      commentId: P:Foo.Core.Tamagotchi.Alias
+      language: CSharp
+      name:
+        CSharp: Alias
+        VB: Alias
+      nameWithType:
+        CSharp: Tamagotchi.Alias
+        VB: Tamagotchi.Alias
+      qualifiedName:
+        CSharp: Foo.Core.Tamagotchi.Alias
+        VB: Foo.Core.Tamagotchi.Alias
+      type: Property
+      assemblies:
+      - Foo.Core
+      namespace: Foo.Core
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Core/Tamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Alias
+        path: ../FooProjectA/src/Foo.Core/Tamagotchi.cs
+        startLine: 14
+      example: []
+      syntax:
+        content:
+          CSharp: public string Alias { get; }
+          VB: Public ReadOnly Property Alias As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Foo.Core.Tamagotchi.Alias*
+      implements:
+      - Foo.Abstraction.ITamagotchi.Alias
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Foo.Core.Tamagotchi.Hunger
+      commentId: P:Foo.Core.Tamagotchi.Hunger
+      language: CSharp
+      name:
+        CSharp: Hunger
+        VB: Hunger
+      nameWithType:
+        CSharp: Tamagotchi.Hunger
+        VB: Tamagotchi.Hunger
+      qualifiedName:
+        CSharp: Foo.Core.Tamagotchi.Hunger
+        VB: Foo.Core.Tamagotchi.Hunger
+      type: Property
+      assemblies:
+      - Foo.Core
+      namespace: Foo.Core
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Core/Tamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Hunger
+        path: ../FooProjectA/src/Foo.Core/Tamagotchi.cs
+        startLine: 17
+      example: []
+      syntax:
+        content:
+          CSharp: public float Hunger { get; }
+          VB: Public ReadOnly Property Hunger As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Foo.Core.Tamagotchi.Hunger*
+      implements:
+      - Foo.Abstraction.ITamagotchi.Hunger
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Foo.Core.Tamagotchi.Tiredness
+      commentId: P:Foo.Core.Tamagotchi.Tiredness
+      language: CSharp
+      name:
+        CSharp: Tiredness
+        VB: Tiredness
+      nameWithType:
+        CSharp: Tamagotchi.Tiredness
+        VB: Tamagotchi.Tiredness
+      qualifiedName:
+        CSharp: Foo.Core.Tamagotchi.Tiredness
+        VB: Foo.Core.Tamagotchi.Tiredness
+      type: Property
+      assemblies:
+      - Foo.Core
+      namespace: Foo.Core
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Core/Tamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Tiredness
+        path: ../FooProjectA/src/Foo.Core/Tamagotchi.cs
+        startLine: 20
+      example: []
+      syntax:
+        content:
+          CSharp: public float Tiredness { get; }
+          VB: Public ReadOnly Property Tiredness As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Foo.Core.Tamagotchi.Tiredness*
+      implements:
+      - Foo.Abstraction.ITamagotchi.Tiredness
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Foo.Core.Tamagotchi.Bordem
+      commentId: P:Foo.Core.Tamagotchi.Bordem
+      language: CSharp
+      name:
+        CSharp: Bordem
+        VB: Bordem
+      nameWithType:
+        CSharp: Tamagotchi.Bordem
+        VB: Tamagotchi.Bordem
+      qualifiedName:
+        CSharp: Foo.Core.Tamagotchi.Bordem
+        VB: Foo.Core.Tamagotchi.Bordem
+      type: Property
+      assemblies:
+      - Foo.Core
+      namespace: Foo.Core
+      source:
+        remote:
+          path: _projects/DocFx/MultiSolution/FooProjectA/src/Foo.Core/Tamagotchi.cs
+          branch: docFx_multiProject
+          repo: https://github.com/ListlessValkyrie/Coding-Varmits.git
+        id: Bordem
+        path: ../FooProjectA/src/Foo.Core/Tamagotchi.cs
+        startLine: 23
+      example: []
+      syntax:
+        content:
+          CSharp: public float Bordem { get; }
+          VB: Public ReadOnly Property Bordem As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Foo.Core.Tamagotchi.Bordem*
+      implements:
+      - Foo.Abstraction.ITamagotchi.Bordem
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  Foo.Abstraction:
+    name:
+      CSharp:
+      - name: Foo.Abstraction
+        nameWithType: Foo.Abstraction
+        qualifiedName: Foo.Abstraction
+      VB:
+      - name: Foo.Abstraction
+        nameWithType: Foo.Abstraction
+        qualifiedName: Foo.Abstraction
+    isDefinition: true
+    commentId: N:Foo.Abstraction
+  Foo.Abstraction.ITamagotchi:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi
+        name: ITamagotchi
+        nameWithType: ITamagotchi
+        qualifiedName: Foo.Abstraction.ITamagotchi
+      VB:
+      - id: Foo.Abstraction.ITamagotchi
+        name: ITamagotchi
+        nameWithType: ITamagotchi
+        qualifiedName: Foo.Abstraction.ITamagotchi
+    isDefinition: true
+    parent: Foo.Abstraction
+    commentId: T:Foo.Abstraction.ITamagotchi
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Foo.Core.Tamagotchi.Id*:
+    name:
+      CSharp:
+      - id: Foo.Core.Tamagotchi.Id*
+        name: Id
+        nameWithType: Tamagotchi.Id
+        qualifiedName: Foo.Core.Tamagotchi.Id
+      VB:
+      - id: Foo.Core.Tamagotchi.Id*
+        name: Id
+        nameWithType: Tamagotchi.Id
+        qualifiedName: Foo.Core.Tamagotchi.Id
+    isDefinition: true
+    commentId: Overload:Foo.Core.Tamagotchi.Id
+  Foo.Abstraction.ITamagotchi.Id:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Id
+        name: Id
+        nameWithType: ITamagotchi.Id
+        qualifiedName: Foo.Abstraction.ITamagotchi.Id
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Id
+        name: Id
+        nameWithType: ITamagotchi.Id
+        qualifiedName: Foo.Abstraction.ITamagotchi.Id
+    isDefinition: true
+    parent: Foo.Abstraction.ITamagotchi
+    commentId: P:Foo.Abstraction.ITamagotchi.Id
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Foo.Core.Tamagotchi.Alias*:
+    name:
+      CSharp:
+      - id: Foo.Core.Tamagotchi.Alias*
+        name: Alias
+        nameWithType: Tamagotchi.Alias
+        qualifiedName: Foo.Core.Tamagotchi.Alias
+      VB:
+      - id: Foo.Core.Tamagotchi.Alias*
+        name: Alias
+        nameWithType: Tamagotchi.Alias
+        qualifiedName: Foo.Core.Tamagotchi.Alias
+    isDefinition: true
+    commentId: Overload:Foo.Core.Tamagotchi.Alias
+  Foo.Abstraction.ITamagotchi.Alias:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Alias
+        name: Alias
+        nameWithType: ITamagotchi.Alias
+        qualifiedName: Foo.Abstraction.ITamagotchi.Alias
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Alias
+        name: Alias
+        nameWithType: ITamagotchi.Alias
+        qualifiedName: Foo.Abstraction.ITamagotchi.Alias
+    isDefinition: true
+    parent: Foo.Abstraction.ITamagotchi
+    commentId: P:Foo.Abstraction.ITamagotchi.Alias
+  System.Single:
+    name:
+      CSharp:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+      VB:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Single
+  Foo.Core.Tamagotchi.Hunger*:
+    name:
+      CSharp:
+      - id: Foo.Core.Tamagotchi.Hunger*
+        name: Hunger
+        nameWithType: Tamagotchi.Hunger
+        qualifiedName: Foo.Core.Tamagotchi.Hunger
+      VB:
+      - id: Foo.Core.Tamagotchi.Hunger*
+        name: Hunger
+        nameWithType: Tamagotchi.Hunger
+        qualifiedName: Foo.Core.Tamagotchi.Hunger
+    isDefinition: true
+    commentId: Overload:Foo.Core.Tamagotchi.Hunger
+  Foo.Abstraction.ITamagotchi.Hunger:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Hunger
+        name: Hunger
+        nameWithType: ITamagotchi.Hunger
+        qualifiedName: Foo.Abstraction.ITamagotchi.Hunger
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Hunger
+        name: Hunger
+        nameWithType: ITamagotchi.Hunger
+        qualifiedName: Foo.Abstraction.ITamagotchi.Hunger
+    isDefinition: true
+    parent: Foo.Abstraction.ITamagotchi
+    commentId: P:Foo.Abstraction.ITamagotchi.Hunger
+  Foo.Core.Tamagotchi.Tiredness*:
+    name:
+      CSharp:
+      - id: Foo.Core.Tamagotchi.Tiredness*
+        name: Tiredness
+        nameWithType: Tamagotchi.Tiredness
+        qualifiedName: Foo.Core.Tamagotchi.Tiredness
+      VB:
+      - id: Foo.Core.Tamagotchi.Tiredness*
+        name: Tiredness
+        nameWithType: Tamagotchi.Tiredness
+        qualifiedName: Foo.Core.Tamagotchi.Tiredness
+    isDefinition: true
+    commentId: Overload:Foo.Core.Tamagotchi.Tiredness
+  Foo.Abstraction.ITamagotchi.Tiredness:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Tiredness
+        name: Tiredness
+        nameWithType: ITamagotchi.Tiredness
+        qualifiedName: Foo.Abstraction.ITamagotchi.Tiredness
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Tiredness
+        name: Tiredness
+        nameWithType: ITamagotchi.Tiredness
+        qualifiedName: Foo.Abstraction.ITamagotchi.Tiredness
+    isDefinition: true
+    parent: Foo.Abstraction.ITamagotchi
+    commentId: P:Foo.Abstraction.ITamagotchi.Tiredness
+  Foo.Core.Tamagotchi.Bordem*:
+    name:
+      CSharp:
+      - id: Foo.Core.Tamagotchi.Bordem*
+        name: Bordem
+        nameWithType: Tamagotchi.Bordem
+        qualifiedName: Foo.Core.Tamagotchi.Bordem
+      VB:
+      - id: Foo.Core.Tamagotchi.Bordem*
+        name: Bordem
+        nameWithType: Tamagotchi.Bordem
+        qualifiedName: Foo.Core.Tamagotchi.Bordem
+    isDefinition: true
+    commentId: Overload:Foo.Core.Tamagotchi.Bordem
+  Foo.Abstraction.ITamagotchi.Bordem:
+    name:
+      CSharp:
+      - id: Foo.Abstraction.ITamagotchi.Bordem
+        name: Bordem
+        nameWithType: ITamagotchi.Bordem
+        qualifiedName: Foo.Abstraction.ITamagotchi.Bordem
+      VB:
+      - id: Foo.Abstraction.ITamagotchi.Bordem
+        name: Bordem
+        nameWithType: ITamagotchi.Bordem
+        qualifiedName: Foo.Abstraction.ITamagotchi.Bordem
+    isDefinition: true
+    parent: Foo.Abstraction.ITamagotchi
+    commentId: P:Foo.Abstraction.ITamagotchi.Bordem
+  Foo.Core.Tamagotchi:
+    name:
+      CSharp:
+      - id: Foo.Core.Tamagotchi
+        name: Tamagotchi
+        nameWithType: Tamagotchi
+        qualifiedName: Foo.Core.Tamagotchi
+      VB:
+      - id: Foo.Core.Tamagotchi
+        name: Tamagotchi
+        nameWithType: Tamagotchi
+        qualifiedName: Foo.Core.Tamagotchi
+    isDefinition: true
+    commentId: T:Foo.Core.Tamagotchi
+  Foo.Core:
+    name:
+      CSharp:
+      - name: Foo.Core
+        nameWithType: Foo.Core
+        qualifiedName: Foo.Core
+      VB:
+      - name: Foo.Core
+        nameWithType: Foo.Core
+        qualifiedName: Foo.Core
+    isDefinition: true
+    commentId: N:Foo.Core

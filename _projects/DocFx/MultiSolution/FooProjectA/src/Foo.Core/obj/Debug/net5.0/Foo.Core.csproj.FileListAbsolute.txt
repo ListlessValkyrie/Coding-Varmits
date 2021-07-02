@@ -1,0 +1,15 @@
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\bin\Debug\net5.0\Foo.Core.deps.json
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\bin\Debug\net5.0\Foo.Core.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\bin\Debug\net5.0\ref\Foo.Core.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\bin\Debug\net5.0\Foo.Core.pdb
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\bin\Debug\net5.0\Foo.Abstraction.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\bin\Debug\net5.0\Foo.Abstraction.pdb
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.csproj.AssemblyReference.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.AssemblyInfoInputs.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.AssemblyInfo.cs
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.csproj.CoreCompileInputs.cache
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.csproj.CopyComplete
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\ref\Foo.Core.dll
+D:\GitHub\Coding-Varmits\_projects\DocFx\MultiSolution\FooProjectA\src\Foo.Core\obj\Debug\net5.0\Foo.Core.pdb

@@ -1,0 +1,8 @@
+- name: Introduction
+  href: intro.md
+- name: Release Notes
+  href: releasenotes.md
+- name: Articles
+  items:
+    - name: Tamagotchi
+      href: tamagotchi.md  

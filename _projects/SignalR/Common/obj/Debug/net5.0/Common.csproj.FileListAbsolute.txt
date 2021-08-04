@@ -1,0 +1,11 @@
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\bin\Debug\net5.0\Common.deps.json
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\bin\Debug\net5.0\Common.dll
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\bin\Debug\net5.0\ref\Common.dll
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\bin\Debug\net5.0\Common.pdb
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\obj\Debug\net5.0\Common.dll
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\obj\Debug\net5.0\ref\Common.dll
+D:\GitHub\Coding-Varmits\_projects\SignalR\Common\obj\Debug\net5.0\Common.pdb

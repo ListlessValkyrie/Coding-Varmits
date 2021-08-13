@@ -14,7 +14,7 @@ namespace ClientConsoleApp
             var connection = new HubConnectionBuilder()
                 .WithUrl("https://localhost:44332/statehub")
                 .WithAutomaticReconnect()
-                .Build();;
+                .Build();
 
             connection.On<int>("NewPlayer", playerId =>
             {

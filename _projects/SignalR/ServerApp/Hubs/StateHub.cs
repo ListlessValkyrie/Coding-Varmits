@@ -11,6 +11,9 @@ namespace ServerApp.Hubs
         {
         }
 
+        /// <summary>
+        /// These are methods that can be called by the CLIENT
+        /// </summary>
         public async Task GetPlayerState()
         {
             PlayerState? playerState = null;

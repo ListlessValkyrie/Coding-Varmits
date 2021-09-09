@@ -32,14 +32,20 @@ namespace ServerApp
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ServerApp", Version = "v1" });
             });
 
-            byte[] key = Encoding.ASCII.GetBytes("SecretKey_bC?%7Ua4f.pwj4gfe2NO0XN@HHGM/m");
+
+
 
             // Add Authentication
+
+            /*
+             *             byte[] key = Encoding.ASCII.GetBytes("SecretKey_bC?%7Ua4f.pwj4gfe2NO0XN@HHGM/m");
+             * 
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
+            });
+                
             .AddJwtBearer(options =>
             {
                 options.RequireHttpsMetadata = false;
@@ -52,7 +58,7 @@ namespace ServerApp
                     ValidateAudience = false,
                     ClockSkew = TimeSpan.FromMinutes(1),
                 };
-            });
+            }); */
 
             services.AddAuthorization();
             services.AddSignalR();

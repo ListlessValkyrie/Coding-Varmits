@@ -1,20 +1,17 @@
-﻿using Common;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using Common;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Primitives;
 using Microsoft.Net.Http.Headers;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace ServerApp.Hubs
 {
     public class StateHub : Hub
     {
         public StateHub()
-        {
-       
+        {      
         }
 
         public override Task OnConnectedAsync()
@@ -34,9 +31,7 @@ namespace ServerApp.Hubs
         /// These are methods that can be called by the CLIENT
         /// </summary>
         public async Task GetPlayerState()
-        {
-            
-
+        {           
             PlayerState? playerState = null;
 
             do

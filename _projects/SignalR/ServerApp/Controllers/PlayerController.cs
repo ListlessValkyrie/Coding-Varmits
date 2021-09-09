@@ -28,5 +28,15 @@ namespace ServerApp.Controllers
 
             return Accepted();
         }
+
+        
+        [HttpPost]
+        [Route("api/SendToGroup/group")]
+        public async Task<IActionResult> SendToGroup(string groupName)
+        {
+            await stateHub.Clients.Groups(groupName).SendAsync("NewPlayer", 44);
+
+            return Accepted();
+        }
     }
 }

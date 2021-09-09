@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "E43QMV13asT0jTqenzdugkGGAmFJYZLmgzINk1XKbLgQXqwnlJnMGQ789WO6+x0zg59lgLEAvIuG59UlW3n/bQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Coding-Varmits\\_projects\\GridFS Demo\\DB.Core\\DB.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\martin.davies\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\mongocsharpdriver\\2.13.1\\mongocsharpdriver.2.13.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\mongodb.bson\\2.13.1\\mongodb.bson.2.13.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\mongodb.driver\\2.13.1\\mongodb.driver.2.13.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\mongodb.driver.core\\2.13.1\\mongodb.driver.core.2.13.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\mongodb.driver.gridfs\\2.13.1\\mongodb.driver.gridfs.2.13.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.2\\mongodb.libmongocrypt.1.2.2.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

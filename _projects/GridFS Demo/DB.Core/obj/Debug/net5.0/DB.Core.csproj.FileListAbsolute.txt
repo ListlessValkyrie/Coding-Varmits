@@ -1,0 +1,12 @@
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\bin\Debug\net5.0\DB.Core.deps.json
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\bin\Debug\net5.0\DB.Core.dll
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\bin\Debug\net5.0\ref\DB.Core.dll
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\bin\Debug\net5.0\DB.Core.pdb
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\DB.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\DB.Core.AssemblyInfoInputs.cache
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\DB.Core.AssemblyInfo.cs
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\DB.Core.csproj.CoreCompileInputs.cache
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\DB.Core.dll
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\ref\DB.Core.dll
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\DB.Core.pdb
+D:\GitHub\Coding-Varmits\_projects\GridFS Demo\DB.Core\obj\Debug\net5.0\DB.Core.csproj.AssemblyReference.cache

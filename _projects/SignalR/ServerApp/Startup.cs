@@ -1,8 +1,13 @@
+using System;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ServerApp.Hubs;
 
@@ -26,6 +31,30 @@ namespace ServerApp
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ServerApp", Version = "v1" });
             });
+
+            byte[] key = Encoding.ASCII.GetBytes("SecretKey_bC?%7Ua4f.pwj4gfe2NO0XN@HHGM/m");
+
+            // Add Authentication
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.FromMinutes(1),
+                };
+            });
+
+            services.AddAuthorization();
             services.AddSignalR();
         }
 

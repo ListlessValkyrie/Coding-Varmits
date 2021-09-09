@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CfnCYYujgWpxESAiIKNshGVp1ML4vzj2aqPr8ya2GXdRTfQVsmyfMgeIkrxLfQZvJYJ/BbkLWpC7F6jarcwL7g==",
+  "dgSpecHash": "dDJWTSlie5LapayYzhGRGNOsgK7vMSM+JhXD2BTmJvQwXljuVdaJUAjqZQINrK3HwqEfUFKoUmscG5n9g4CJMQ==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\Coding-Varmits\\_projects\\SignalR\\ClientConsoleApp\\ClientConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -12,13 +12,19 @@
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\5.0.8\\microsoft.aspnetcore.signalr.client.core.5.0.8.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\5.0.8\\microsoft.aspnetcore.signalr.common.5.0.8.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\5.0.8\\microsoft.aspnetcore.signalr.protocols.json.5.0.8.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\microsoft.identitymodel.jsonwebtokens.6.12.2.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\microsoft.identitymodel.logging.6.12.2.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\microsoft.identitymodel.tokens.6.12.2.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\system.identitymodel.tokens.jwt.6.12.2.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\martin.davies\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\martin.davies\\.nuget\\packages\\system.threading.channels\\5.0.0\\system.threading.channels.5.0.0.nupkg.sha512"
   ],
   "logs": []

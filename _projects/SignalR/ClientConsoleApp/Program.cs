@@ -1,6 +1,9 @@
 ﻿using Common;
 using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.IdentityModel.Tokens;
 using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Threading.Tasks;
 
 namespace ClientConsoleApp
 {
@@ -11,8 +14,27 @@ namespace ClientConsoleApp
             Console.WriteLine("Press a key to start listening...");
             Console.ReadKey();
 
-            var connection = new HubConnectionBuilder()
-                .WithUrl("https://localhost:44332/statehub")
+            /*
+            JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
+            SecurityTokenDescriptor description = new SecurityTokenDescriptor()
+            {
+                Expires = DateTime.Now.AddDays(7)
+            };
+
+            SecurityToken token = handler.CreateToken(description);
+
+            Console.WriteLine(token);
+            */
+
+            Guid guid = Guid.NewGuid();
+            Console.WriteLine(guid);
+
+            HubConnection connection = new HubConnectionBuilder()
+                //.WithUrl("https://localhost:44332/statehub?AUTHORIZATION="+ token )
+                .WithUrl("https://localhost:44332/statehub?AUTHORIZATION=", options =>
+                {
+                    options.AccessTokenProvider = () => Task.FromResult(guid.ToString());
+                })
                 .WithAutomaticReconnect()
                 .Build();
 
@@ -26,10 +48,9 @@ namespace ClientConsoleApp
                 Console.WriteLine($"ReceivePlayerState: {playerState}");
             });
 
-            connection.StartAsync()
+            connection.StartAsync()             
                 .GetAwaiter()
                 .GetResult();
-
 
             connection.InvokeAsync("GetPlayerState");
 

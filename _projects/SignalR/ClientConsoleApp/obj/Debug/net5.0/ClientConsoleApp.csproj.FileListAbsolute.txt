@@ -32,3 +32,7 @@ D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\obj\Debug\net5.0\Cli
 D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\obj\Debug\net5.0\ref\ClientConsoleApp.dll
 D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\obj\Debug\net5.0\ClientConsoleApp.pdb
 D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\obj\Debug\net5.0\ClientConsoleApp.genruntimeconfig.cache
+D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\GitHub\Coding-Varmits\_projects\SignalR\ClientConsoleApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

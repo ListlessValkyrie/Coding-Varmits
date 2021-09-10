@@ -32,9 +32,6 @@ namespace ServerApp
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ServerApp", Version = "v1" });
             });
 
-
-
-
             // Add Authentication
 
             /*
